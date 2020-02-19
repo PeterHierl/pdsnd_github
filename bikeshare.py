@@ -196,6 +196,7 @@ def show_raw_data(df):
         start += 5
         end += 5
 
+# Definition of the main function
 def main():
     while True:
         city, month, day = get_filters()
