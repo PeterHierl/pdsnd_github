@@ -35,6 +35,7 @@ def get_filters():
             city = city.lower()
             break
     print('{} is the city of your choice.'.format(city.title()))
+    print('Be aware the the data of Washington is missing the Gender and Birth Year of the user')
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
